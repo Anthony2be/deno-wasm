@@ -14,6 +14,8 @@ opt-level = "z"
 
 [dependencies]
 wasm-bindgen = "=0.2.83"
+gloo = "0.2.0"
+js-sys = "0.3.32"
 
 [dependencies.web-sys]
 version = "0.3.4"
@@ -23,4 +25,11 @@ features = [
   'HtmlElement',
   'Node',
   'Window',
+  'HtmlParagraphElement',
+  'HtmlButtonElement',
+  'console',
+  'KeyboardEvent',
+  'CssStyleDeclaration',
+  'MouseEvent',
+  'HtmlDivElement',
 ]
